@@ -1,0 +1,32 @@
+{
+ "phase": 9,
+ "name": "Red Team — Planted-Fault Matrix",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T03:07:18Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "80 planted faults/controls caught across 5 independent instruments; none escaped (an escape fails its own phase)"
+  },
+  {
+   "status": "PASS",
+   "check": "model sabotage: 32 planted faults/controls caught (phase 3)"
+  },
+  {
+   "status": "PASS",
+   "check": "proof controls (mutants / missing hypotheses): 23 planted faults/controls caught (phase 4)"
+  },
+  {
+   "status": "PASS",
+   "check": "independent verifier mutants: 7 planted faults/controls caught (phase 5)"
+  },
+  {
+   "status": "PASS",
+   "check": "ReplayG mutants and tampered traces: 17 planted faults/controls caught (phase 7)"
+  },
+  {
+   "status": "PASS",
+   "check": "silicon: tampered board trace rejected: 1 planted faults/controls caught (phase 12)"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "phase": 8,
+ "name": "Determinism",
+ "result": "PASS",
+ "finished_utc": "2026-11-17T19:05:48Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "determinism (rc=0): 4 PASS, 0 FAIL; 1 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "determinism · PASS sealed reference traces (seal 13) intact: evidence/verifier_f3_20261111T022103Z/traces.txt.gz"
+  },
+  {
+   "status": "PASS",
+   "check": "determinism · PASS sealed exporter rebuilt from source"
+  },
+  {
+   "status": "PASS",
+   "check": "determinism · PASS 3000 adversarial worlds regenerated now are BIT-IDENTICAL to the traces sealed in seal 13 (sha256 c51c758b0986647e5f5fa72e3cbd3a1f40be654b20b9062a23190ec51d9f52ae)"
+  },
+  {
+   "status": "PASS",
+   "check": "determinism · DETERMINISM: PASS"
+  }
+ ],
+ "instruments": [
+  "determinism"
+ ]
+}

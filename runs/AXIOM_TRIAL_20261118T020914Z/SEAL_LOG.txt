@@ -1,0 +1,2 @@
+trial manifest: 9cc9bf1c3d3c79058f8aeb302cad2de5b06d7dba291f34457982eeee55d9a628
+TRIAL_MANIFEST.txt stamped with OpenTimestamps (Bitcoin attestation pending; close with close_all_seals.sh)

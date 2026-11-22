@@ -1,0 +1,2 @@
+trial manifest: d6c96765f7114ead7956dace57bf8cf851847c52f58e87e948b72d46e19452b6
+OFFLINE run: no stamp here; the ONLINE run of the pair carries this manifest and stamps it

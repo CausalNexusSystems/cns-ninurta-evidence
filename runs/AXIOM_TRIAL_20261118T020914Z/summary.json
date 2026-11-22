@@ -1,0 +1,94 @@
+{
+ "run_id": "AXIOM_TRIAL_20261118T020914Z",
+ "product": "CNS AXIOM",
+ "kernel_version": "3.4.0",
+ "generated_utc": "2026-11-18T03:07:59Z",
+ "mode": "online",
+ "pair_offline_run": {
+  "run": "AXIOM_TRIAL_20261118T012733Z",
+  "trial_manifest_sha256": "c65cc564d440c2b6f443ce3980e3a2224069bedc3cb1325a1700c2a544ecf1b1"
+ },
+ "organization": "Causal Nexus Systems LLC — Anthony Moreno, Founder & CEO",
+ "overall": "ALL PASS",
+ "phase_merkle_root_rfc6962": "19247965bfed1a430b4433bb5528c8f02a71048b49b7105cbd5a89c3c391c242",
+ "phases": [
+  {
+   "phase": 0,
+   "name": "Network & Toolchain Status",
+   "result": "PASS",
+   "phase_seal": "e31c9c5ad61bf4267018b94be80844933b26e0598f3938b37e177727ac488e3d"
+  },
+  {
+   "phase": 1,
+   "name": "Sealed Source & Evidence Integrity",
+   "result": "PASS",
+   "phase_seal": "eb19e5c706e92ea9fabfee418054e4611b70486e8ab0eaeb951d88f0c1a44242"
+  },
+  {
+   "phase": 2,
+   "name": "Production Kernel: candidate10 Build, Equivalence & Translation",
+   "result": "PASS",
+   "phase_seal": "1ec6df722b336bb01df74f4de0718493e701fd6fe3b66675927037b78a91d31b"
+  },
+  {
+   "phase": 3,
+   "name": "Model Proofs (F1, F2, F3, F3b, G)",
+   "result": "PASS",
+   "phase_seal": "8e9ba258aad1a9cfbe412571cd04c5ff2894c093ccf1e75a2837ad18e293de44"
+  },
+  {
+   "phase": 4,
+   "name": "Formal Proofs on the Translated Production Code",
+   "result": "PASS",
+   "phase_seal": "09fe5ed6cadd3b8bc54484d4d56e42afd535230b5bec0e8f046526aefd2351f0"
+  },
+  {
+   "phase": 5,
+   "name": "Independent Verification (Python, own Ed25519)",
+   "result": "PASS",
+   "phase_seal": "56115f90eb17a8bef846db909c9de2826c600ee9b2821c6993def9097e27d031"
+  },
+  {
+   "phase": 6,
+   "name": "Model-Code Bridge (model G guards)",
+   "result": "PASS",
+   "phase_seal": "530ef387ca59df6dcca9b6de3ea4bd8702c6b484d819f677b33cca052691986d"
+  },
+  {
+   "phase": 7,
+   "name": "ReplayG — Code-to-Model Conformance",
+   "result": "PASS",
+   "phase_seal": "91b8ed3823829fa57cff4cb2cf0d65c03fa7b63efa39baa4cd96a7940568f2e4"
+  },
+  {
+   "phase": 8,
+   "name": "Determinism — Cross-Time Bit-Identical Replay",
+   "result": "PASS",
+   "phase_seal": "b6ea5f717a0bd069d5ccc8b58df16aedf12160393798ddb639fba5d9be5f773e"
+  },
+  {
+   "phase": 9,
+   "name": "Red Team — Planted-Fault Matrix",
+   "result": "PASS",
+   "phase_seal": "65c34c844e39c7f8a52ca3208c7a14a4ec2a636dc96ac99855783be7d9781eae"
+  },
+  {
+   "phase": 10,
+   "name": "Bitcoin-Seeded Adversarial Campaign 0003",
+   "result": "PASS",
+   "phase_seal": "4a80da6db3227fda3170c5486178e46bc985d49ac29881af25cb340bc33b3169"
+  },
+  {
+   "phase": 11,
+   "name": "Seal Chain & Non-Regression (Bitcoin)",
+   "result": "PASS",
+   "phase_seal": "bdade259cec60c6aaa6145e5929fa1d78a31003c858e9fbfd3c7d3ae9efba59f"
+  },
+  {
+   "phase": 12,
+   "name": "Silicon — MIMXRT1060-EVK, RAM only (KAT, S3, S4, S5)",
+   "result": "PASS",
+   "phase_seal": "0568241664657b29532452070bd86fb674db08ec4fe3db2df29dcc205c2b43c3"
+  }
+ ]
+}

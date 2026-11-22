@@ -1,0 +1,92 @@
+{
+ "phase": 6,
+ "name": "Model-Code Bridge (model G guards)",
+ "result": "PASS",
+ "finished_utc": "2026-11-17T19:50:54Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "G guard [openp.hsig signature check] <- `F45_apertura` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [openp.hacc binding to witness] <- `F4_ligadura` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [openp.hacc binding to witness] <- `F45_apertura_ligada` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [successor is +1] <- `F4_sucesor_es_mas_uno` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [commit ws=ww=true] <- `G2_commit_exige_almacen_y_testigo` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [Valid: collapse not in h] <- `T3_no_autoriza_tras_colapso` proved in this run (T3_no_autoriza_tras_colapso.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [Valid: t not consumed] <- `T1_no_autoriza_paso_consumido` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [Valid: t not consumed] <- `T2_autorizar_registra_el_consumo` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [Valid: t not consumed] <- `FR12_no_dos_autorizaciones_del_mismo_paso` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [Valid: lineage (no head)] <- `M0_lineage_ok_sin_cabeza_exige_paso_1` proved in this run (M0_sin_cabeza_solo_paso_1.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [CtrOK counter 0] <- `G1a_contador_cero` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [CtrOK monotone] <- `G1b_contador_no_creciente` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hpois] <- `G3b_envenenada_no_consume` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hpois] <- `FR11_ejecutor_solo_tras_autorizacion` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [pois := pois || !rok] <- `G3_recibo_no_anclado_envenena` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [one effect per step] <- `FR11_un_efecto_por_paso` proved in this run (R8_puente_G_sobre_codigo_traducido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hardware witness lost (PGD) => authority gate never opens] <- `S4_fc_open_autoridad` proved in this run (R9_fail_closed_testigo_perdido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hardware witness lost (PGD) => effect gate never opens] <- `S4_fc_open_efectos` proved in this run (R9_fail_closed_testigo_perdido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hardware witness lost (PGD) => no authority genesis] <- `S4_fc_genesis_autoridad` proved in this run (R9_fail_closed_testigo_perdido.lean)"
+  },
+  {
+   "status": "PASS",
+   "check": "G guard [hardware witness lost (PGD) => no effect genesis] <- `S4_fc_genesis_efectos` proved in this run (R9_fail_closed_testigo_perdido.lean)"
+  },
+  {
+   "status": "INFO",
+   "check": "Composition 'all guards proved => code refines G => fr1_g holds for the code' is ARGUED, not mechanized as one theorem; its empirical evidence is phase 7 (ReplayG)."
+  }
+ ]
+}

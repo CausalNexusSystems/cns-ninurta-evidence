@@ -1,0 +1,67 @@
+{
+ "phase": 5,
+ "name": "Independent Verification",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T02:54:23Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "verifier_f3 (rc=0): 13 PASS, 0 FAIL; 6 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS verifier_f3 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS candidate8 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS Ed25519 propio contra el vector de prueba 1 de RFC 8032 (y rechazo del mensaje alterado)"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS exportador compila"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · VERIFICADOR INDEPENDIENTE: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS la misma corrida tambien pasa el reproductor Lean F3b (dos oraculos independientes)"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS M05 detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS M06 detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS M10 detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS M14 detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS M19 detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · PASS MW detectado por el verificador"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3 · VERIFICADOR INDEPENDIENTE F3: PASS"
+  }
+ ],
+ "instruments": [
+  "verifier_f3"
+ ]
+}

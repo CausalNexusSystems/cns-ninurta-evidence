@@ -1,0 +1,116 @@
+{
+ "phase": 12,
+ "name": "Silicon",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T03:07:18Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical (rc=0): 7 PASS, 0 FAIL; 6 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS paquete silicio/kat coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS candidate10 (sello 16) intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS Mac = nube (digest sellado)"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS firmware compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS ELF solo RAM: 136660 bytes cargables, tabla de vectores en OCRAM2 (probe-rs arranca desde RAM; la flash no se toca)"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · PASS placa = Mac = nube: el kernel de produccion da los MISMOS bytes en el Cortex-M7"
+  },
+  {
+   "status": "PASS",
+   "check": "kat_bit_identical · SILICIO KAT: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 (rc=0): 17 PASS, 0 FAIL; 32 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS silicio/s345 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS silicio/kat coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS candidate10 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS replay_g_v2 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS lean_g coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS trazas selladas de referencia: replay_g_v2_20261118T025424Z (SHA256SUMS integro)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S4 en el simulador SNVS (A 18, B 5, corte, D 5)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS Mac (port sin editar, candidate10) = prefijo EXACTO de las trazas selladas (candidate8): 144145 bytes, 300 mundos"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S3 frecuencia del nucleo medida contra el RTC de 32768 Hz: 395991825 / 395991873 / 395991876 Hz (coinciden a 0,1 %)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S3 ciclos por operacion: 6 medidas x (sin cache, con cache)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S4-A en la placa: 18/18 (testigo perdido niega genesis y apertura; ceremonia; linaje sobre el contador; restaurar/clonar/split-brain negados). MC=11"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S4-B: el contador sobrevivio al reset (11), almacen borrado/fabricado negado, ceremonia negada, contador sin moverse"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S5 trazas de la placa: sha256 en la placa = extraido = Mac = prefijo sellado (d5293e6b491ae7c55da9ec22b6271ba9e86abf05ed0995f82fa7b66512c3d552)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS S5 el reproductor DEMOSTRADO (applyG_sound) acepta las trazas de la placa: REPLAY G: PASS (toda transicion del Rust fue un Step del modelo G demostrado)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS control: la traza de la placa manipulada (contador +7) es RECHAZADA"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · PASS nada quedo en la placa y la perdida del testigo es detectable (PGD=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "s3_s4_s5 · SILICIO S3+S4+S5: PASS"
+  }
+ ],
+ "instruments": [
+  "kat_bit_identical",
+  "s3_s4_s5"
+ ]
+}

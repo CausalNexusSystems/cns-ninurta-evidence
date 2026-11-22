@@ -1,0 +1,216 @@
+{
+ "phase": 1,
+ "name": "Sealed Source & Evidence Integrity",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T02:09:17Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "28 package lists (294 files) and 23 seal manifests (602 files) re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate: 14 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10: 22 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate4: 14 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate5: 14 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate6: 17 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate7: 17 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate8: 18 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate9: 19 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate_finalizer: 7 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "cohorts: 12 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "cohorts_v2: 12 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "cohorts_v3: 13 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "conform_f3: 9 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "conform_f3b: 9 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "h8h9: 4 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "h8h9_c6: 4 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "h8h9_c7: 4 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "h8h9_c8: 4 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1: 7 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2: 6 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3: 9 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b: 9 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g: 5 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g: 13 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2: 13 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "trial_v2: 3 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "trial_v3: 3 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "verifier_f3: 13 files equal their sealed list"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL_MANIFEST.txt: 5 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL4_MANIFEST.txt: 31 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL6_MANIFEST.txt: 24 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL7_MANIFEST.txt: 125 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL8_MANIFEST.txt: 22 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL9_MANIFEST.txt: 29 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL10_MANIFEST.txt: 6 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL11_MANIFEST.txt: 11 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL12_MANIFEST.txt: 11 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL13_MANIFEST.txt: 8 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL14_MANIFEST.txt: 12 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL15_MANIFEST.txt: 11 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL16_MANIFEST.txt: 19 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL17_MANIFEST.txt: 20 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL18_MANIFEST.txt: 18 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL19_MANIFEST.txt: 17 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL20_MANIFEST.txt: 17 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL21_MANIFEST.txt: 20 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL22_MANIFEST.txt: 19 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL23_MANIFEST.txt: 80 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL24_MANIFEST.txt: 25 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL25_MANIFEST.txt: 65 sealed files unchanged"
+  },
+  {
+   "status": "PASS",
+   "check": "SEAL26_MANIFEST.txt: 7 sealed files unchanged"
+  }
+ ]
+}

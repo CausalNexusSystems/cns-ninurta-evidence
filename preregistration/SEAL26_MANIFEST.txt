@@ -1,0 +1,9 @@
+AXIOM sello 26 - PRE-REGISTRO del trial con silicio (trial_v3): fases 0-11 del trial de software + fase 12 silicio (KAT bit a bit, S3 tiempos, S4 testigo SNVS fail-closed, S5 ReplayG desde la placa, lectura final de fabrica); par OFFLINE + ONLINE; ronda 9 en la fase 4 y puente S4 en la fase 6
+utc=2026-11-17T00:16:58Z
+a549f4f068ee746de9b97759134056e7570ecae2382f613cc5a5854a01fdd7ab  00_GOVERNANCE/proofs/SEAL25_MANIFEST.txt
+3ccf120fe3c50a603aac8e08c99a630106c68eaf0a2460dcf0272aeb7eb0b4a4  trial_v3/EXPECTED_SHA256.txt
+8f998822bad0abe7685ae850b152ce8baa7757855bb9d65bceb19168efe10f00  trial_v3/README_TRIAL.md
+976e593f931c1001992b280446ac21b868786af2377b71ad990d16fb391c335f  trial_v3/run_axiom_trial.sh
+ecf1e4fdab19d9e2fe0a5e82c6d9a57d47896f6d84ec72cc16816e8fd393949e  trial_v3/trial_lib.py
+71de80f483ea660a7a44ae68188b4fc1050fa47f2b38555ca668fb74664c139d  silicio/kat/EXPECTED_SHA256.txt
+5848b43fcc5f8f7ec64c819a4f660eb8df193f43eb006a4f74e697da7321512b  silicio/s345/EXPECTED_SHA256.txt

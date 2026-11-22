@@ -1,0 +1,19 @@
+CNS AXIOM V3.4.0 — TRIAL — AXIOM_TRIAL_20261118T012733Z — OFFLINE
+Timestamp: 2026-11-18T02:08:59Z
+
+Phase  0  Network & Toolchain Status                                       PASS
+Phase  1  Sealed Source & Evidence Integrity                               PASS
+Phase  2  Production Kernel: candidate10 Build, Equivalence & Translation  PASS
+Phase  3  Model Proofs (F1, F2, F3, F3b, G)                                PASS
+Phase  4  Formal Proofs on the Translated Production Code                  PASS
+Phase  5  Independent Verification (Python, own Ed25519)                   PASS
+Phase  6  Model-Code Bridge (model G guards)                               PASS
+Phase  7  ReplayG — Code-to-Model Conformance                              PASS
+Phase  8  Determinism — Cross-Time Bit-Identical Replay                    PASS
+Phase  9  Red Team — Planted-Fault Matrix                                  PASS
+Phase 10  Bitcoin-Seeded Adversarial Campaign 0003                         PASS
+Phase 11  Seal Chain & Non-Regression (Bitcoin)                            PASS
+Phase 12  Silicon — MIMXRT1060-EVK, RAM only (KAT, S3, S4, S5)             PASS
+
+OVERALL: ALL PASS
+Phase Merkle root (RFC 6962): 9009e6b61ad79e312e77a599e9d7d2547ad6328214a0531b4cc6c37d830dbf1e

@@ -1,0 +1,52 @@
+{
+ "phase": 11,
+ "name": "Seal Chain & Non-Regression (Bitcoin)",
+ "result": "PASS",
+ "finished_utc": "2026-11-17T20:04:12Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "57/57 OpenTimestamps seals attested in Bitcoin; merkle root re-checked on 2 explorers; sealed file digest = current digest"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL17 contains the hash of SEAL16"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL18 contains the hash of SEAL17"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL19 contains the hash of SEAL18"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL20 contains the hash of SEAL19"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL21 contains the hash of SEAL20"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL22 contains the hash of SEAL21"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL23 contains the hash of SEAL22"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL24 contains the hash of SEAL23"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL25 contains the hash of SEAL24"
+  },
+  {
+   "status": "PASS",
+   "check": "chain: SEAL26 contains the hash of SEAL25"
+  }
+ ]
+}

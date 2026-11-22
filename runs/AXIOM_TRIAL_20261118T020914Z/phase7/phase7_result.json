@@ -1,0 +1,139 @@
+{
+ "phase": 7,
+ "name": "ReplayG",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T03:03:34Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 (rc=0): 27 PASS, 0 FAIL; 11 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS replay_g_v2 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS lean_g coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS candidate8 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS verifier_f3 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS modelo G + ReplayGCore compilan"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS applyG_sound, replayG_sound, replayG_fr1: solo propext y Quot.sound"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS exportador compila contra candidate8"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS determinismo: dos exportaciones identicas (0bac85a3034e1b68...)"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · REPLAY G: PASS (toda transicion del Rust fue un Step del modelo G demostrado)"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS traza manipulada (ctr) rechazada"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS traza manipulada (eff) rechazada"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M01 detectado: linea 10988: DIVERGENCIA: commit 0: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FA"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M02 detectado: linea 376: DIVERGENCIA: testigo Rust=a0 modelo=c0@1,a0 REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M03 detectado: linea 49: DIVERGENCIA: open 1 2: G NO permite esta apertura REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M05 detectado: linea 130: DIVERGENCIA: commit 2: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M06 detectado: linea 198: DIVERGENCIA: commit 0: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M07 detectado: linea 118: DIVERGENCIA: open 0 0: el Rust abrio sobre un ancla con firma invalida REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M09 detectado: linea 570: DIVERGENCIA: commit 1: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M10 detectado: linea 1184: DIVERGENCIA: commit 2: el almacen del Rust tomo un ancla que no extiende la cabeza REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M11 detectado: linea 2724: DIVERGENCIA: commit 1: el Rust consumio con la compuerta de efectos envenenada REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M14 detectado: linea 2386: DIVERGENCIA: commit 1: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAI"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M15 detectado: linea 214: DIVERGENCIA: commit 0: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M17 detectado: efectos=0 recibos_no_anclados=0 anclas_inyectadas=455 colapsos=1911 REPLAY G: FAIL (corrida vacua: no ejercita"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M18 detectado: linea 130: DIVERGENCIA: commit 2: el Rust firmo una operacion invalida para G (linaje/contador) REPLAY G: FAIL"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M19 detectado: linea 300: DIVERGENCIA: testigo Rust=a000,c00@2,a00,c0@1,a0 modelo=c000@3,a000,c00@2,a00,c0@1,a0 REPLAY G: FAI"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · PASS M20 detectado: linea 376: DIVERGENCIA: testigo Rust=a0 modelo=c0@1,a0 REPLAY G: FAIL"
+  },
+  {
+   "status": "INFO",
+   "check": "replay_g_v2 · INFO M04 fuera de alcance de G (lo cubren las cohortes), no detectado: esperado"
+  },
+  {
+   "status": "INFO",
+   "check": "replay_g_v2 · INFO M08 fuera de alcance de G (lo cubren las cohortes), no detectado: esperado"
+  },
+  {
+   "status": "INFO",
+   "check": "replay_g_v2 · INFO M12 fuera de alcance de G (lo cubren las cohortes), no detectado: esperado"
+  },
+  {
+   "status": "INFO",
+   "check": "replay_g_v2 · INFO M13 fuera de alcance de G (lo cubren las cohortes), no detectado: esperado"
+  },
+  {
+   "status": "PASS",
+   "check": "replay_g_v2 · REPLAY G (formal): PASS"
+  }
+ ],
+ "instruments": [
+  "replay_g_v2"
+ ]
+}

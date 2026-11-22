@@ -1,0 +1,283 @@
+{
+ "phase": 3,
+ "name": "Model Proofs",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T01:38:12Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "lean_f1 (rc=0): 10 PASS, 0 FAIL; 4 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS lean_f1 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS compila sin errores"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sin sorry"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS axiomas: solo propext y Quot.sound (o ninguno)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sabotaje S1_sin_consumo_unico (errores=1, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sabotaje S2_consume_tras_colapso (errores=2, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sabotaje S3_cand7_declarado_seguro (errores=1, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sabotaje S4_efecto_sin_testigo (errores=4, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · PASS sabotaje S5_control_sin_cambio (errores=0, esperado ok)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f1 · LEAN F1: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 (rc=0): 12 PASS, 0 FAIL; 4 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS lean_f2 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS compila sin errores"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sin sorry"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS axiomas: solo propext y Quot.sound (o ninguno)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S1_sin_consumo_unico (errores=1, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S2_consume_tras_colapso (errores=2, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S3_cand7_declarado_seguro (errores=1, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S4_efecto_sin_testigo (errores=4, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S6_testigo_estricto_no_rompe (errores=2, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S7_regla_un_consumo_no_rompe (errores=2, esperado break)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · PASS sabotaje S5_control_sin_cambio (errores=0, esperado ok)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f2 · LEAN F2: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 (rc=0): 14 PASS, 0 FAIL; 8 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS lean_f3 y conform_f3 coinciden con sus listas"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS candidate8 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS modelo F3 compila (sin sorry: 0 avisos)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS axiomas: solo propext y Quot.sound"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS sabotaje S8_reproductor_acepta_aperturas_ilegales (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS sabotaje S9_reproductor_acepta_testigo_ilegal (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS sabotaje S5_control (errores=0)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS generador compila"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · REPLAY F3: PASS (toda transicion del Rust fue una transicion del modelo demostrado)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS M05 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS M14 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS M20 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · PASS MW rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3 · F3 (inclusion de trazas): PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b (rc=0): 16 PASS, 0 FAIL; 8 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS lean_f3 y conform_f3 coinciden con sus listas"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS candidate8 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS modelo F3 compila (sin sorry: 0 avisos)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS axiomas: solo propext y Quot.sound"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS sabotaje S8_reproductor_acepta_aperturas_ilegales (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS sabotaje S9_reproductor_acepta_testigo_ilegal (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS sabotaje S10_linaje_solo_por_indice (errores=2)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS sabotaje S5_control (errores=0)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS generador compila"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · REPLAY F3b: PASS (toda transicion del Rust fue una transicion del modelo demostrado)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS M05 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS M14 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS M15 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS M20 rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · PASS MW rechazado por el reproductor"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_f3b · F3b (inclusion de trazas con ramas): PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g (rc=0): 10 PASS, 0 FAIL; 10 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS lean_g coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS modelo G compila (avisos sorry: 0)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS axiomas: 15 teoremas, solo propext y Quot.sound"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G1_open_sin_verificar_firma (errores=4)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G2_contador_no_estricto (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G3_recibo_perdido_no_envenena (errores=2)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G4_ancla_inyectada_pasa_por_firmada (errores=2)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G5_envenenado_puede_consumir (errores=1)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · PASS sabotaje G0_control (errores=0)"
+  },
+  {
+   "status": "PASS",
+   "check": "lean_g · MODELO G (firmas, contadores, compuerta de efectos): PASS"
+  }
+ ],
+ "instruments": [
+  "lean_f1",
+  "lean_f2",
+  "lean_f3",
+  "lean_f3b",
+  "lean_g"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "phase": 10,
+ "name": "Bitcoin-Seeded Adversarial Campaign 0003",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T02:08:58Z",
+ "cases": [
+  {
+   "status": "INFO",
+   "check": "OFFLINE: seed block 975508 hash 0000000000000000... is re-read from two Bitcoin explorers by the ONLINE run of the pair"
+  },
+  {
+   "status": "PASS",
+   "check": "campaign definition attested in Bitcoin at block 975368 BEFORE the seed block 975508 (no seed grinding)"
+  },
+  {
+   "status": "PASS",
+   "check": "evidence/cohorts_v3_formal_20261113T034852Z: 125 evidence files intact"
+  },
+  {
+   "status": "PASS",
+   "check": "formal verdict PASS and the run used the saved block hash as seed"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N1: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N2: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N3: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N4: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N5: 841 instances, 0 violations, 95% upper bound 0.003555771"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N6: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N7: 1000 instances, 0 violations, 95% upper bound 0.00299125"
+  },
+  {
+   "status": "PASS",
+   "check": "cohort N8: 5000000 instances, 0 violations, 95% upper bound 5.991463e-07"
+  }
+ ]
+}

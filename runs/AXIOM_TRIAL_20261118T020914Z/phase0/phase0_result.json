@@ -1,0 +1,74 @@
+{
+ "phase": 0,
+ "name": "Network & Toolchain Status",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T02:09:16Z",
+ "cases": [
+  {
+   "status": "INFO",
+   "check": "TCP 1.1.1.1:53 reachable"
+  },
+  {
+   "status": "INFO",
+   "check": "TCP 8.8.8.8:53 reachable"
+  },
+  {
+   "status": "INFO",
+   "check": "TCP blockstream.info:443 reachable"
+  },
+  {
+   "status": "INFO",
+   "check": "TCP mempool.space:443 reachable"
+  },
+  {
+   "status": "PASS",
+   "check": "ONLINE run: Bitcoin explorers reachable (phases 10-11 re-check against Bitcoin; trial seal stamped)"
+  },
+  {
+   "status": "PASS",
+   "check": "official pair: its OFFLINE counterpart AXIOM_TRIAL_20261118T012733Z is ALL PASS over the same sealed source (manifest c65cc564d440c2b6... re-verified)"
+  },
+  {
+   "status": "PASS",
+   "check": "cargo: cargo 1.94.1 (29ea6fb6a 2026-03-24)"
+  },
+  {
+   "status": "PASS",
+   "check": "rustc: rustc 1.94.1 (e408947bf 2026-03-25)"
+  },
+  {
+   "status": "PASS",
+   "check": "python3: Python 3.13.7"
+  },
+  {
+   "status": "PASS",
+   "check": "lean: Lean (version 4.20.0, x86_64-apple-darwin22.6.0, commit 77cfc4d1a4f6, Release)"
+  },
+  {
+   "status": "PASS",
+   "check": "probe-rs: probe-rs 0.32.0 (git commit: crates.io)"
+  },
+  {
+   "status": "PASS",
+   "check": "opentimestamps client: /Users/anthonymoreno/.ots-venv/bin/ots"
+  },
+  {
+   "status": "PASS",
+   "check": "free disk on the home volume: 8.9 GB (>= 6 GB required)"
+  }
+ ],
+ "mode": "online",
+ "network_probes_answered": 4,
+ "tools": {
+  "cargo": "cargo 1.94.1 (29ea6fb6a 2026-03-24)",
+  "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)",
+  "python3": "Python 3.13.7",
+  "lean": "Lean (version 4.20.0, x86_64-apple-darwin22.6.0, commit 77cfc4d1a4f6, Release)",
+  "probe-rs": "probe-rs 0.32.0 (git commit: crates.io)"
+ },
+ "source_digest": "468b53da47361496f015c672b586f07a9bcc186f665381b985c4882245dd71dc",
+ "pair_offline_run": {
+  "run": "AXIOM_TRIAL_20261118T012733Z",
+  "trial_manifest_sha256": "c65cc564d440c2b6f443ce3980e3a2224069bedc3cb1325a1700c2a544ecf1b1"
+ }
+}

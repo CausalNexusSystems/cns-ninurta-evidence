@@ -1,0 +1,75 @@
+{
+ "phase": 2,
+ "name": "Production Kernel",
+ "result": "PASS",
+ "finished_utc": "2026-11-18T02:16:13Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline (rc=0): 15 PASS, 0 FAIL; 15 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS candidate10 coincide con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS candidate8 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS candidate9 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS verifier_f3 intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS lean_f3b intacto"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS 129 pruebas + 13 doctests"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS el harness compila sin cambios"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS modulos de prueba: candidate8=8 candidate10=8 identicos=True"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS testigo=strict: trazas identicas (c51c758b0986647e5f5fa72e3cbd3a1f40be654b20b9062a23190ec51d9f52ae) y anclas/firmas/compromisos identicos (2418a4efa7b4ebc9 3000)"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS testigo=number: trazas identicas (c51c758b0986647e5f5fa72e3cbd3a1f40be654b20b9062a23190ec51d9f52ae) y anclas/firmas/compromisos identicos (2418a4efa7b4ebc9 3000)"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS testigo=nonstrict: trazas identicas (b7fb384a226b0bbd5a952c3d1e93c9214ad12d9e1fc4f13334e161cda30e3b40) y anclas/firmas/compromisos identicos (49cfa47d181ddcd8 3000)"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS control: una firma alterada cambia el resumen canonico"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · VERIFICADOR INDEPENDIENTE: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · REPLAY F3b: PASS (toda transicion del Rust fue una transicion del modelo demostrado)"
+  },
+  {
+   "status": "PASS",
+   "check": "candidate10_pipeline · PASS axiomas: todos en la lista permitida (S2/S4 + logica estandar)"
+  }
+ ],
+ "instruments": [
+  "candidate10_pipeline"
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "phase": 4,
+ "name": "Formal Proofs on Translated Code",
+ "result": "PASS",
+ "finished_utc": "2026-11-17T18:54:28Z",
+ "cases": [
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 (rc=0): 19 PASS, 0 FAIL; 18 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · DEMOSTRADO M0_sin_cabeza_solo_paso_1 (36s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · DEMOSTRADO T1_no_autoriza_paso_consumido (26s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · DEMOSTRADO T3_no_autoriza_tras_colapso (15s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N1_sin_hipotesis falla como debe (objetivo sin resolver)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N2_paso_no_consumido falla como debe (objetivo sin resolver)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N3_mutante_sin_step_consumed falla como debe (objetivo sin resolver)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N4_mutante_sin_colapso falla como debe (objetivo sin resolver)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N5_con_cabeza_de_linaje falla como debe (objetivo sin resolver)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N3_mutante_sin_step_consumed: lo que queda abierto es el camino que AUTORIZA"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N4_mutante_sin_colapso: lo que queda abierto es el camino que AUTORIZA"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N1_sin_hipotesis: lo que queda abierto es el camino que AUTORIZA"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · PASS N5: lo que queda abierto es 'paso = 1'"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r4 · TEOREMAS SOBRE EL CODIGO TRADUCIDO (T1, T3, M0) + 5 CONTROLES: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 (rc=0): 13 PASS, 0 FAIL; 15 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · DEMOSTRADO R5_FR12_sobre_codigo_traducido (28s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS C1_sin_hipotesis: lo abierto son exactamente los 2 caminos de autorizacion real (commit_consume Ok)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS C2_mutante_sin_step_consumed: lo abierto son exactamente los 2 caminos de autorizacion real (commit_consume Ok)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS C3_mutante_sin_colapso: lo abierto son exactamente los 2 caminos de autorizacion real (commit_consume Ok)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS C4: sin el registro, la prueba se traba justo en el push de consumed_heads"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · PASS C5: lo registrado es el hash causal, no el previo"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r5 · FR-1.2 SOBRE EL CODIGO TRADUCIDO (T2 + FR12) + 5 CONTROLES: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 (rc=0): 13 PASS, 0 FAIL; 15 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · DEMOSTRADO R6_FR11_sobre_codigo_traducido (27s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS C6_mutante_denegado_ejecuta: si la autoridad DENIEGA y aun asi se llama al ejecutor, queda abierto exactamente ex1 = ex"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS C7_mutante_envenenado_ejecuta: con la compuerta envenenada y llamada al ejecutor, queda abierto exactamente ex1 = ex"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS C8_sin_efecto_previo: sin efecto previo (recibo Denied) el corolario no se sostiene"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS C9_otro_paso_causal: con otro paso causal no hay exclusion (queda abierto adm2.causal_hash = adm.causal_hash)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · PASS C10_mutante_recibo: si el recibo no registra el resultado real, L_rcpt se traba en la rama Err"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r6 · FR-1.1 SOBRE EL CODIGO TRADUCIDO (FR11 + un efecto por paso) + 5 CONTROLES: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 (rc=0): 13 PASS, 0 FAIL; 15 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · DEMOSTRADO R7_F45_open_typed_sobre_codigo_traducido (28s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS C11_mutante_salto_dos: si la ligadura aceptara seq+2, queda abierto exactamente sat(wseq,2) = sat(wseq,1)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS C12_mutante_sin_firma: sin verificar la firma, queda abierto exactamente verify_signature = ok true"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS C13_mutante_sin_rollback: sin el chequeo de rollback, queda abierto exactamente fl <= val.seq"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS C14_mutante_sin_avance: si nunca avanza el testigo, queda abierto exactamente el roll-forward"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · PASS C15_sin_supuesto_S3: sin admitir el testigo no vinculante (S3), queda abierto False con binds = false"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r7 · F4/F5 SOBRE open_typed EN EL CODIGO TRADUCIDO + 5 CONTROLES: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 (rc=0): 14 PASS, 0 FAIL; 18 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · DEMOSTRADO R8_puente_G_sobre_codigo_traducido (29s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C16_sin_hipotesis_contador: sin la hipotesis de contador queda abierto exactamente el camino real con contador mayor"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C17_mutante_contador_igual: si se aceptara contador igual al ultimo, queda abierto ese replay (counter <= last y no <)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C18_mutante_ignora_almacen: si se ignora el fallo del almacen, queda abierto exactamente commit = Ok"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C19_mutante_no_envenena: si un recibo no anclado no envenena, queda abierta la existencia del ancla"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C20_mutante_envenenada_consume: si la compuerta envenenada consume, queda abierto exactamente ag1 = ag"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PASS C21_sin_contador_cero: sin h0 quedan abiertos exactamente los 2 caminos reales de autorizacion"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r8 · PUENTE G EN EL CODIGO TRADUCIDO (G1,G2,G3) + 6 CONTROLES: PASS"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 (rc=0): 11 PASS, 0 FAIL; 11 evidence files re-hashed"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS archivos de la ronda coinciden con su lista"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS Types.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS Funs.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS TypesExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS FunsExternal.lean = sellado (sello 16)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS proyecto compilado"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · DEMOSTRADO R9_fail_closed_testigo_perdido (31s), axiomas en lista blanca"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS C22_floor_uno: con floor 1 queda abierto exactamente el sucesor del ancla fresca (seq = 0+1, roll-forward)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS C23_sin_binds: sin binds = true queda abierto exactamente el testigo que no liga (binds = false)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · PASS C24_floor_cero: con floor 0 queda abierto exactamente el genesis sobre testigo fresco (floor == 0)"
+  },
+  {
+   "status": "PASS",
+   "check": "pruebas_r9 · R9 FAIL-CLOSED CON TESTIGO PERDIDO (4 teoremas + no vacuidad) + 3 CONTROLES: PASS"
+  }
+ ],
+ "instruments": [
+  "pruebas_r4",
+  "pruebas_r5",
+  "pruebas_r6",
+  "pruebas_r7",
+  "pruebas_r8",
+  "pruebas_r9"
+ ]
+}
